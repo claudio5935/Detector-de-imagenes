@@ -1,0 +1,5 @@
+class_name, confidence_score = get_class(
+    model_path="modelo_ia.h5", # <-- Aquí pones el nombre real de tu archivo
+    labels_path="labels.txt", 
+    image_path=file_name
+)
